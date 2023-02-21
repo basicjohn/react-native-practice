@@ -1,7 +1,7 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View, SafeAreaView } from "react-native";
 
-export default function App() {
+const App = () => {
   // console.log("Hello World");
   let x = 1;
   // x.toString();
@@ -18,7 +18,7 @@ export default function App() {
       </View>
     </SafeAreaView>
   );
-}
+};
 
 const styles = StyleSheet.create({
   container: {
@@ -26,3 +26,5 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
   },
 });
+
+export default App;
